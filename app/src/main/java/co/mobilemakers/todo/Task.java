@@ -7,12 +7,9 @@ public class Task {
     private String mTitle;
     private Boolean mDone;
 
-    public Task() {
-    }
-
-    public Task(String title, Boolean done) {
+    public Task(String title) {
         this.mTitle = title;
-        this.mDone = done;
+        this.mDone = false;
     }
 
     public String getmTitle() {
